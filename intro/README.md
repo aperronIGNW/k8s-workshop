@@ -72,7 +72,7 @@ Steps:
     * `curl [external_ip]/foo`
       We can also query the value from the database.
 
-### Scaling the aplication
+### Scaling the application
 1. Scale the Deployment
     * `kubectl --namespace k8s-workshop scale deployment frontend --replicas=2`
       This will tell Kubernetes to increase the number of copies of `frontend` to 2
